@@ -10,21 +10,27 @@
     <a-scene>
       <a-sky color="lightblue"></a-sky>
       
-      <a-entity 
+     <!--ROATATING-->
+     <a-entity animation="property: rotation; to 0 360 0; dur: 8000; loop: true; easing: linear">
+
+    <!--BLUE CAR-->
+    </a-entity
       ply-model="src:improvedblueracecar.ply"
       position="-3.036 0.262 2.063 "
       rotation="-89.836 16.511 42.736"
       scale="1.000 0.865 0.892"
       ></a-entity>
 
+     </a-entity>
+
+     <!--WORLD-->
      <a-entity 
       ply-model="src:superdupaworld.ply"
       position="-9.882 -2.363 10.552"
       rotation="-90.000 2.244 0.000"
       ></a-entity>
                  
-     <a-entity animation="property: rotation; to: 0 360 0; dur: 8000; loop: true; easing: linear"></a-entity>
-
+     
     </a-scene>
-    </body>
-     </html>
+  </body>
+</html>
